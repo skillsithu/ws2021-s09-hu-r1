@@ -11,15 +11,16 @@ Az alábbiakban a válogató első fordulójára vonatkozó legfontosabb inform�
 
 Ebben a fordulóban egy adatbázis-kezelést végző asztali alkalmazás fejlesztési feladatát kell elvégezned. Az otthoni feladat megoldása során tetszőleges felkészülési forrásokat használhatsz fel, de a feladatot önállóan kell elvégezned, az elkészült munkának a te képességeidet és tudásodat kell tükröznie. A feladat megoldásához általad tetszőlegesen választott, Windows 10 operációs rendszeren futtatható asztali alkalmazás fejlesztésére alkalmas programozási nyelvet használhatsz. Ajánlott nyelvek: C# vagy Java.
 
+
 Az alkalmazásnak MySQL szerveren tárolt adatbázist kell használnia. 
 
-A feladat értékelésénél használt tesztkörnyezet leírását a [részletes feladatleírás](https://github.com/skillsithu/ws2021-s09-hu-r1/blob/master/WSC2021_HU_TP_S09_R1_EN_1_0.pdf) tartalmazza. 
+A feladat értékelésénél használt tesztkörnyezet leírását a [részletes feladatleírás](https://github.com/skillsithu/ws2021-s09-hu-r1/blob/master/WSC2021_HU_TP_S09_R1_EN_1_1.pdf) tartalmazza. 
 
 A beküldött feladat értékelését követően a legjobb 10 versenyzővel személyes interjú keretében beszélgetünk el. Ezt követően 6 versenyzőt választunk ki, ők mérkőzhetnek majd meg egymással az egynapos középdöntőben. (A középdöntő várható időpontja 2020.03.13, péntek.) 
 
 ### A feladat
 
-A feladat leírását ebben a repoban, a [`WSC2021_HU_TP_S09_R1_EN_1_0.pdf`](https://github.com/skillsithu/ws2021-s09-hu-r1/blob/master/WSC2021_HU_TP_S09_R1_EN_1_0.pdf) fájlban találhatod.
+A feladat leírását ebben a repoban, a [`WSC2021_HU_TP_S09_R1_EN_1_1.pdf`](https://github.com/skillsithu/ws2021-s09-hu-r1/blob/master/WSC2021_HU_TP_S09_R1_EN_1_1.pdf) fájlban találhatod.
 Szintén ebben a repoban, a media_files mappában találod a fejlesztéshez használható kiegészítő anyagokat (design, fontok, logók stb.) is.
 
 
@@ -35,14 +36,16 @@ Ezután a megoldásodat tartalmazó repo-t meg kell osztanod velünk. Ehhez a `s
 
 A repo minimálisan az alábbiakat kell tartalmaznia:
 
- - A programod forráskódja a source mappában. 
- - A program telepítőkészlete az installation-package mappában. Amennyiben nem egy setup.exe-vel indítható next-next-finish típusú telepítésre van szükség, akkor ugyanebben a mappában található setup.md névre hallgató fájlban kell megadnod a telepítés módjának leírását. 
- - A MySQL adatbázisod dump-ja `skills-it-yy.sql` névre hallgató fájlban.
+ - A programod forráskódja a `source` mappában. 
+ - A program telepítőkészlete az `installation-package` mappában. Amennyiben nem egy `setup.exe`-vel indítható "next-next-finish" típusú telepítésre van szükség, akkor ugyanebben a mappában található `setup.md` névre hallgató fájlban kell megadnod a telepítés módjának leírását. 
+ - A MySQL adatbázisod adatbázismodell-diagramja  `skills_it_database_yy.sql` néven a  `database` mappában
+ - A MySQL adatbázisod dump-ja `skills-it-database-yy.sql` néven a  `database` mappában.
+ - 
 
 
 #### Határidő
 
-A feladatok elkészítésének végső határideje: **2019.02.24., hétfő, éjfél**
+A feladatok elkészítésének végső határideje: **2019.02.24., hétfő, éjfél**.
 Beadott megoldásnak azt tekintjük, amit a fenti időben a repodban találunk.
 
 Jó munkát kíván a Skills IT versenyszervező csapata! :+1:  
